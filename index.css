@@ -1,0 +1,73 @@
+body{
+    background-color: #BFC9CA;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-41937cd49481660da7bd64c4e0ffca0c-c");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav, footer {
+    display:flow-root;
+}
+
+.icono{
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding: 5px;
+}
+#titulo {
+    color: #03456d;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px;
+    padding: 3px;
+    margin: 20px;
+}
+#titulo2 {
+    color: #03456d;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .contenedor img {
+     width: 100%;
+     height: 75%; 
+    }
+ 
+ .imagen {
+   box-sizing: border-box;
+   flex-basis: 33.33%;
+   flex-shrink: 0;
+   padding: 5px;
+   max-height: fit-content;
+   border-color: #2874A6;
+   border-style: groove;
+ }
+ 
+ .imagen h5 {
+   margin: 5px 0;
+   font-size: 30px;
+   text-align: center;
+   color: white;
+   font-family: 'Permanent Marker', cursive;
+ }
+ nav h6{
+    text-align: left;
+ }
+ h6{
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+ }
